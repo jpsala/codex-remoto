@@ -1,29 +1,27 @@
 # Codex REMOTO
 
-Configurá Codex en otra computadora para usar el acceso REMOTO que te entrega JP.
-Necesitás tener instalada la app oficial de Codex o el CLI y recibir la clave
-REMOTO por separado. Los kits no incluyen claves ni instalan programas.
+Elegí tu computadora y hacé clic para **descargar el ZIP directamente**.
+JP te pasa la clave de acceso por separado.
 
-## Descargar
+## [⬇ Descargar para Windows](https://github.com/jpsala/codex-remoto/raw/refs/heads/main/Codex-Remoto-Windows.zip)
 
-| Equipo | Kit | Estado |
-| --- | --- | --- |
-| Windows | [Descargar Codex-Remoto-Windows.zip](Codex-Remoto-Windows.zip) | Probado con CLI y motor de la app |
-| Mac | [Descargar Codex-Remoto-Mac.zip](Codex-Remoto-Mac.zip) | Pendiente de prueba real en macOS; primera prueba acompañada por JP |
+Kit probado en Windows. Al terminar la descarga, seguí los tres pasos de abajo.
 
-En GitHub, abrí el archivo y usá **Download raw file** para descargarlo.
-También está la [guía completa](LEEME.txt), incluida en esta distribución.
+## [⬇ Descargar para Mac](https://github.com/jpsala/codex-remoto/raw/refs/heads/main/Codex-Remoto-Mac.zip)
 
-## Configurar
+**Pendiente de prueba real en macOS.** Coordiná la primera prueba con JP.
 
-1. Cerrá Codex y extraé el ZIP completo.
-2. Abrí `Configurar-Remoto.cmd` en Windows o `Configurar-Remoto.command` en Mac.
-3. Pegá la clave REMOTO cuando la pida el configurador. La entrada es oculta.
-4. Cuando termine, abrí Codex y creá un chat nuevo.
+## Después de descargar
 
-Si todavía no tenés Codex, descargalo desde [el sitio oficial](https://chatgpt.com/codex).
-En Mac, si el doble clic no abre el archivo, abrí Terminal, escribí `/bin/bash`
-y un espacio, arrastrá `Configurar-Remoto.command` y presioná Enter.
+Necesitás tener Codex instalado. Si todavía no lo tenés,
+[descargá Codex desde el sitio oficial](https://chatgpt.com/codex) e instalalo primero.
+
+1. **Cerrá Codex y extraé el ZIP.** Buscalo en Descargas. En Windows, clic
+   derecho → **Extraer todo**. En Mac, doble clic en el ZIP.
+2. **Abrí la carpeta extraída y hacé doble clic en el configurador:**
+   `Configurar-Remoto.cmd` en Windows o `Configurar-Remoto.command` en Mac.
+   Pegá la clave que te pasó JP cuando te la pida. La entrada es oculta.
+3. **Volvé a abrir Codex y creá un chat nuevo.**
 
 Queda seleccionado **LLM-proxy REMOTO**, con **GPT-6.1 Sol en medium**.
 En el CLI podés consultar `/status`; en la app revisá el modelo y, con JP,
@@ -47,10 +45,14 @@ archivos de claves ni respaldos entre equipos. No compartas la clave con tercero
 
 ## Ayuda
 
+En Mac, si el doble clic no abre el configurador, abrí Terminal, escribí
+`/bin/bash` y un espacio, arrastrá `Configurar-Remoto.command` y presioná Enter.
+
 Si algo falla, avisale a JP el sistema, la versión de Codex y el paso donde
 falló, con el mensaje de error sin datos privados. No publiques claves,
 configuraciones completas ni respaldos en GitHub.
 
 El `LEEME.txt` dentro de cada ZIP explica dónde queda el respaldo para volver
 atrás con ayuda de JP. Los [SHA-256](SHA256SUMS.txt) permiten verificar que
-los archivos descargados coinciden con esta entrega.
+los archivos descargados coinciden con esta entrega. También podés leer
+la [guía completa](LEEME.txt).
