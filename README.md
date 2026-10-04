@@ -17,7 +17,9 @@ Necesitás tener Codex instalado. Si todavía no lo tenés,
 [descargá Codex desde el sitio oficial](https://chatgpt.com/codex) e instalalo primero.
 
 1. **Cerrá Codex y extraé el ZIP.** Buscalo en Descargas. En Windows, clic
-   derecho → **Extraer todo**. En Mac, doble clic en el ZIP.
+   derecho → **Extraer todo**; si usás WinRAR, elegí **Extraer en**.
+   No abras el configurador dentro de WinRAR ni desde la vista del ZIP.
+   En Mac, doble clic en el ZIP.
 2. **Abrí la carpeta extraída y hacé doble clic en el configurador:**
    `Configurar-Remoto.cmd` en Windows o `Configurar-Remoto.command` en Mac.
    Pegá la clave que te pasó JP cuando te la pida. La entrada es oculta.

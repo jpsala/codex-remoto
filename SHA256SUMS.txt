@@ -1,2 +1,2 @@
 e338ef6b45c8a2542a16ce4f4200ddc998b3dc674816b77cdccced516bd5fad2  Codex-Remoto-Mac.zip
-bfd388d7c6737533eab4e8eca1c17f7fc6f8ad5301e18547b295ac882f4f4cc3  Codex-Remoto-Windows.zip
+723fc23f512cac8c4a8f8004daefadea1a3cadbeec0f0135f7b4de1a408be257  Codex-Remoto-Windows.zip

@@ -14,7 +14,9 @@ PARA EMPEZAR
 1. Tener instalada la app oficial de Codex o el CLI. El kit no instala
    programas. Descarga oficial: https://chatgpt.com/codex.
 2. Cerrar Codex antes de configurar.
-3. Extraer el ZIP completo en una carpeta de esta computadora.
+3. Extraer el ZIP completo en una carpeta de esta computadora. En Windows,
+   clic derecho > Extraer todo; con WinRAR, Extraer en. No abrir el
+   configurador dentro de WinRAR ni desde la vista del ZIP.
 4. Abrir Configurar-Remoto.cmd en Windows o Configurar-Remoto.command
    en Mac. Leer también el LEEME.txt incluido en ese ZIP.
 5. Pegar la clave REMOTO cuando la pida el configurador. La entrada es
