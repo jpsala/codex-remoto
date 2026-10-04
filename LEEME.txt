@@ -1,0 +1,63 @@
+CODEX REMOTO — GUÍA PARA OTRA COMPUTADORA
+
+Recibís dos kits: elegí el de tu equipo.
+
+  Windows: Codex-Remoto-Windows.zip
+  Mac:     Codex-Remoto-Mac.zip
+
+La clave REMOTO te la pasa JP por separado. Los ZIP no la incluyen.
+El kit Windows ya se probó. El kit Mac está pendiente de una prueba real
+en macOS; su primera instalación será una prueba acompañada por JP.
+
+PARA EMPEZAR
+
+1. Tener instalada la app oficial de Codex o el CLI. El kit no instala
+   programas. Descarga oficial: https://chatgpt.com/codex.
+2. Cerrar Codex antes de configurar.
+3. Extraer el ZIP completo en una carpeta de esta computadora.
+4. Abrir Configurar-Remoto.cmd en Windows o Configurar-Remoto.command
+   en Mac. Leer también el LEEME.txt incluido en ese ZIP.
+5. Pegar la clave REMOTO cuando la pida el configurador. La entrada es
+   oculta. No hace falta elegir un perfil ni iniciar otro login de OpenAI.
+6. Cuando indique que terminó, abrir Codex y crear un chat nuevo.
+
+En Mac, si el doble clic no abre el configurador: abrir Terminal, escribir
+/bin/bash y un espacio, arrastrar Configurar-Remoto.command y presionar Enter.
+
+PARA COMPROBARLO
+
+Debe quedar seleccionado LLM-proxy REMOTO, con GPT-6.1 Sol en medium.
+En el CLI se puede consultar /status. En la app revisar el modelo; JP
+puede verificar el proveedor en la configuración si la interfaz no lo muestra.
+
+En un chat nuevo pedir: Responde exactamente: gateway-ok
+Después pedir: Responde exactamente: segundo-ok
+
+Ambas respuestas y el proveedor correcto comprueban el uso inicial del kit.
+Una respuesta aislada no identifica la ruta: si hay dudas, JP debe revisar
+la configuración y corroborar la solicitud en el gateway.
+
+USO HABITUAL
+
+Podés elegir GPT-6.1 Sol, GPT-6 Sol, GPT-6 Luna, GPT-5.6 Sol, GPT-5.6 Terra,
+GPT-5.6 Luna y GPT-5.5, con esfuerzo low, medium o high. Astra queda excluido.
+El acceso usa el VPS de JP y comparte el cupo de su cuenta.
+No necesitás Tailscale, Bun, Python, Node ni instalar un proxy local.
+
+La clave queda en el Llavero de Mac o cifrada para tu usuario de Windows.
+Cada computadora se configura con su propio kit. No copies la carpeta
+.codex ni archivos de claves de una computadora a otra.
+
+SI ALGO FALLA
+
+Conservar la carpeta del kit y avisarle a JP qué sistema y versión de Codex
+se usaron, en qué paso falló y el mensaje de error sin claves ni datos privados.
+No adjuntar configuraciones completas, respaldos, tokens ni la clave.
+El configurador guarda un respaldo privado; JP puede usarlo para volver atrás
+conservando los cambios posteriores. Las rutas están en el LEEME de cada kit.
+
+Si se pierde o cambia la clave compartida, JP coordina la actualización en
+todos los equipos que la usan. No compartirla con terceros.
+
+El archivo SHA256SUMS.txt del paquete permite comprobar que los ZIP copiados
+son idénticos a los preparados por JP. No hace falta usarlo para configurar.
