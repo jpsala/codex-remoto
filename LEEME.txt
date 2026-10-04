@@ -1,12 +1,15 @@
-CODEX REMOTO — GUÍA PARA OTRA COMPUTADORA
+CODEX CON LLM-PROXY — GUÍA PARA OTRA COMPUTADORA
 
-Recibís dos kits: elegí el de tu equipo.
+Elegí el kit de tu acceso y equipo.
 
-  Windows: Codex-Remoto-Windows.zip
-  Mac:     Codex-Remoto-Mac.zip
+  REMOTO Windows: Codex-Remoto-Windows.zip
+  REMOTO Mac:     Codex-Remoto-Mac.zip
+  JP Windows:     Codex-JP-Windows.zip
 
-La clave REMOTO te la pasa JP por separado. Los ZIP no la incluyen.
-El kit Windows ya se probó. El kit Mac está pendiente de una prueba real
+La clave REMOTO te la pasa JP por separado. El kit JP usa la clave JP
+existente y es para sus computadoras. Son claves distintas; la clave del
+administrador no sirve para estos kits. Los ZIP no incluyen claves.
+Los kits Windows ya se probaron. El kit Mac está pendiente de una prueba real
 en macOS; su primera instalación será una prueba acompañada por JP.
 
 PARA EMPEZAR
@@ -17,9 +20,10 @@ PARA EMPEZAR
 3. Extraer el ZIP completo en una carpeta de esta computadora. En Windows,
    clic derecho > Extraer todo; con WinRAR, Extraer en. No abrir el
    configurador dentro de WinRAR ni desde la vista del ZIP.
-4. Abrir Configurar-Remoto.cmd en Windows o Configurar-Remoto.command
-   en Mac. Leer también el LEEME.txt incluido en ese ZIP.
-5. Pegar la clave REMOTO cuando la pida el configurador. La entrada es
+4. Abrir Configurar-Remoto.cmd para REMOTO Windows, Configurar-Remoto.command
+   para REMOTO Mac o Configurar-JP.cmd para JP Windows.
+   Leer también el LEEME.txt incluido en ese ZIP.
+5. Pegar la clave de ese acceso cuando la pida el configurador. La entrada es
    oculta. No hace falta elegir un perfil ni iniciar otro login de OpenAI.
 6. Cuando indique que terminó, abrir Codex y crear un chat nuevo.
 
@@ -28,7 +32,9 @@ En Mac, si el doble clic no abre el configurador: abrir Terminal, escribir
 
 PARA COMPROBARLO
 
-Debe quedar seleccionado LLM-proxy REMOTO, con GPT-6.1 Sol en medium.
+REMOTO selecciona LLM-proxy REMOTO, con GPT-6.1 Sol en medium.
+JP selecciona LLM-proxy JP y conserva el modelo/esfuerzo anterior si es
+compatible; en una configuración nueva usa GPT-6.1 Sol en medium.
 En el CLI se puede consultar /status. En la app revisar el modelo; JP
 puede verificar el proveedor en la configuración si la interfaz no lo muestra.
 
@@ -41,9 +47,12 @@ la configuración y corroborar la solicitud en el gateway.
 
 USO HABITUAL
 
-Podés elegir GPT-6.1 Sol, GPT-6 Sol, GPT-6 Luna, GPT-5.6 Sol, GPT-5.6 Terra,
+Con REMOTO podés elegir GPT-6.1 Sol, GPT-6 Sol, GPT-6 Luna, GPT-5.6 Sol, GPT-5.6 Terra,
 GPT-5.6 Luna y GPT-5.5, con esfuerzo low, medium o high. Astra queda excluido.
-El acceso usa el VPS de JP y comparte el cupo de su cuenta.
+JP permite todos los modelos de Codex disponibles en el VPS, incluido Astra,
+y los esfuerzos admitidos por cada modelo. Los modelos de imagen de la API
+no son opciones del selector de conversación de Codex. No hay kit JP Mac.
+Ambos accesos usan el VPS de JP y comparten el cupo de su cuenta.
 No necesitás Tailscale, Bun, Python, Node ni instalar un proxy local.
 
 La clave queda en el Llavero de Mac o cifrada para tu usuario de Windows.
